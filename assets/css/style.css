@@ -1,0 +1,31 @@
+.grass-top {
+    margin-top: -8px;
+    margin-left: -10px;
+    width: 110%;
+    height: 70px;
+    background-image: url("../images/grasstop.png");
+}
+body {
+    background-image: url("../images/dirtbackground.png");
+}
+.ore {
+    width: 70px;
+    height: 70px;
+}
+.ore-button {
+    margin: 5px 0px 5px 10%;
+    background-image: url("../images/dirtbackground.png")
+}
+.container {
+    margin-top: -10px;
+    background: #203525;
+    color: white;
+    border: solid 5px black;
+}
+.getRecipe {
+    margin: 5px 40% 5px;
+    width: 20%;
+}
+.scroll {
+    width: 100%;
+}

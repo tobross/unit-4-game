@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Crystal Collection Game!
+    </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="stylesheet" href="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="grass-top"></div>
+    <div class="dirt">
+        <div class="container">
+            <h1>
+                Smithing Tradeskill Trainer!
+            </h1>
+        </div>
+        <br>
+        <div class="container training">
+            <h2>
+                Welcome to your blacksmithing training!
+            </h2>
+            <p>
+                First thing's first! Take these recipes and gather the materials required.
+            </p>
+            <p>
+                Once you've gathered the correct materials, you can forge them into weapons!
+            </p>
+            <p>
+                Good luck, apprentice, click the recipe scroll below to get your first assignment.
+            </p>
+        </div>
+        <br>
+        <div class="container">
+            <button class="getRecipe">
+                <img class="scroll" src="assets/images/scroll.png" alt="scroll">
+            </button>
+            <h2>Materials Required:</h2>
+            <div class="matsToGo"></div>
+        </div>
+        <br>
+        <div class="container" id="created-failed">
+            <p class="created"></p>
+            <p class="failed"></p>
+        </div>
+        <br>
+        <div class="container" id="mining">
+            <button class="ore-button" id="copper" value="1">
+                <img class="ore" src="assets/images/copper.png" alt="copper-ore">
+            </button>
+            <button class="ore-button" id="tin" value="2">
+                <img class="ore" src="assets/images/tin.png" alt="tin-ore">
+            </button>
+            <button class="ore-button" id="iron" value="10">
+                <img class="ore" src="assets/images/iron.png" alt="iron-ore">
+            </button>
+            <button class="ore-button" id="mithril" value="25">
+                <img class="ore" src="assets/images/mithril.png" alt="mithril-ore">
+            </button>
+        </div>
+        <br>
+        <div class="container">
+                <h2>Materials Gathered:</h2>
+                <div class="matsGathered"></div>
+        </div>
+    </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
